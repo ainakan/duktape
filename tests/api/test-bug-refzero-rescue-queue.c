@@ -17,7 +17,7 @@
  *  a read/write-after-free detected by valgrind or ASAN.
  *
  *  This test case is a result of debugging an issue which occurred with
- *  Frida Duktape integration.  https://github.com/oleavr was able to reduce
+ *  Ainakan Duktape integration.  https://github.com/oleavr was able to reduce
  *  the original issue into an independent repro case ("dukrecycle") which was
  *  then adapted into this test case.  The test case may seem a bit odd, but
  *  several (seemingly unrelated) heap linked list operations are needed to
